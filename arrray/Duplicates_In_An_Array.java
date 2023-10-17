@@ -1,3 +1,6 @@
+//Find duplicates in an array
+
+
 //Given an array a of size N which contains elements from 0 to N-1,
 // you need to find all the elements occurring more than once in the given array. Return the answer in ascending order.
 // If no such element is found, return list containing [-1].
@@ -31,6 +34,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// public class
 public class Duplicates_In_An_Array {
     public static void main(String[] args) {
 
@@ -50,6 +54,8 @@ public class Duplicates_In_An_Array {
 
 
 
+
+//solution class
 class Solution2 {
     static   ArrayList<Integer> duplicate(int arr[], int n) {
         // code ()
